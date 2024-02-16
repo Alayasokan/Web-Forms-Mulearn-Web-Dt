@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src='main.js'></script>
+    <style type="text/css">
+        body{
+            padding-top: 150px;
+            margin: 0px auto;
+            background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148957205.jpg?w=996&t=st=1708087079~exp=1708087679~hmac=40b298d906341372bc4eae97336f97984d6961206c087e4233611ae2b7054a77);
+        }
+        .web-form{
+            margin: 0px auto;
+            max-width: 400px;
+            background-color: cadetblue;
+            padding: 30px;
+            border-radius: 20px;
+        }
+        .web-form h2{
+            margin: 0px auto;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bolder;
+            color: aliceblue;
+            font-family:   'Times New Roman', serif;
+
+        }
+        .form{
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="web-form">
+            <h2>Sign Up</h2>
+            <div class="row">
+                <div class="form">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="FirstName" placeholder="First Name">
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="LastName" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form">
+                    <input type="email" class="form-control" name="Email" placeholder="Email Address">
+                </div>
+                <div class="form">
+                    <input type="password" class="form-control" name="password" placeholder="Password">
+                </div>
+                <div class="form">
+                    <input type="repassword" class="form-control" name="confirmation" placeholder="Confirm Password">
+                </div>
+                <div class="form">
+                    <label for="">
+                        <input type="checkbox" name="confirmation" placeholder="Confirm Password">
+                        I accept the <a href="http://www.example.com">Terms and use</a> and <a href="http://www.example.com">Privacy Policy</a>
+                    </label>
+                </div>
+                <input type="button" class="btn btn-success col-12" name="Submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
